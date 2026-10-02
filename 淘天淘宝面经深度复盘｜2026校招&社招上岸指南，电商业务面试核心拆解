@@ -1,0 +1,386 @@
+ 淘天集团淘宝面试和字节、网易有着明显区别：字节追逐增量，网易看重岗位匹配与热爱，而淘宝面试的底色是**电商业务闭环、数据归因、商家与用户双端平衡**。不管是产品、运营、技术还是数据分析岗，面试官永远会把你的能力拉回到真实电商场景中去校验。本文整合大量2026年淘天真实面经，完整拆解面试底层逻辑、全流程、高频真题、踩坑点和备考方案。
+
+## 一、淘天淘宝面试底层打分逻辑：读懂面试官的考核重心
+淘宝作为国内货架电商的核心阵地，业务同时承载C端消费者、B端商家、平台三方利益，所以面试不会单纯考察理论知识，核心围绕三点评估候选人。
+
+1. **业务落地优先，拒绝空谈方案**
+淘天非常看重“能不能落地”。哪怕你的想法创意再好，一旦脱离商家经营成本、用户消费习惯、平台规则，都会被判定为纸上谈兵。所有回答都要落地到电商交易链路：曝光、点击、转化、GMV、复购、商家营收。
+
+2. **数据驱动，重视归因复盘能力**
+数据是淘宝面试的核心语言。面试官最爱追问：指标下滑是什么原因？你做的动作带来了多少量化提升？AB实验结论是什么？很多候选人栽在只会描述“做了什么”，却无法讲清楚动作和数据之间的因果关系。
+
+3. **双端平衡思维，兼顾商家与用户**
+这是淘天面试独有的难点。平台不能一味讨好用户压低价格，损害商家利润；也不能只维护商家收益，牺牲用户体验。优秀的候选人，思考方案时会自动权衡三方利弊，单一视角很容易被面试官持续挑战。
+
+同时阿里价值观（六脉神剑）贯穿整个面试，尤其是客户第一、实事求是、拥抱变化，在HR面和总监面会重点考察。面试风格偏向深挖式提问，会不断追问项目细节、方案漏洞，检验经历真实性。
+
+## 二、淘天淘宝标准面试流程
+淘天大部分岗位采用**一面业务基础面→二面能力深挖→三面总监面→随机交叉面→HR终面**，非技术岗一般无群面，技术岗部分岗位会有笔试。每一轮独立打分，只要一轮评估不通过就会终止流程。
+
+### 一面：业务基础面（40～50min）
+面试官多为一线业务同学，核心目标核验简历真实性，考察基础专业能力与电商认知。
+会从自我介绍切入，逐段深挖简历项目经历，抠执行细节。技术岗考察计算机基础、中间件、数据库；非技术岗考察电商基础概念、过往项目动作与基础数据。这一轮淘汰率很高，简历注水、项目细节模糊很容易直接挂掉。
+
+### 二面：业务能力深化面（50～60min）
+面试官一般是业务主管，是拉开候选人差距最关键一轮。不再纠结基础知识点，大量抛出淘宝真实业务场景题。
+重点考察复杂问题解决能力、方案设计、风险预判。例如大促流量异常、商品转化率下滑、商家流失等场景，要求候选人给出完整排查思路和优化方案，同时预判方案带来的副作用。
+
+### 三面：总监面（30～40min）
+业务负责人面试，跳出执行细节，拔高到行业视野、业务战略、个人潜力层面。
+常问淘宝当前的优劣势、对比拼多多/京东的差异、电商行业未来趋势、职业规划。重点判断候选人是否具备全局视角，能否适配淘天长期业务发展。
+
+### 交叉面（随机触发）
+阿里特色环节，由其他业务线负责人面试，看不到之前面试记录，重新独立评估。目的规避部门主观偏好，核验候选人能力是否稳定，很多人在交叉面翻车，不能掉以轻心。
+
+### HR终面（20min）
+HR面不是走过场，价值观匹配度不足会直接挂。重点核实求职动机、稳定性、抗压经历、团队协作案例，会结合六脉神剑追问过往真实案例，同时沟通薪资预期、意向城市。
+
+## 三、淘天热门岗位高频真题与高分答题思路
+### 1. 电商运营岗
+岗位核心：全链路商家运营、爆款打造、大促活动、数据复盘，一切动作最终指向GMV、商家留存。
+高频真题：
+- 如何从零打造淘宝爆款？
+- 大促期间店铺转化率下滑，怎么排查原因？
+- 平台推出低价活动，很多商家不愿意参与，你怎么处理？
+高分思路：遵循**市场调研→人群定位→资源分层→落地执行→数据监控→迭代复盘**。区分引流款、利润款，所有运营动作绑定可量化指标，同时兼顾商家利润空间，不能只看短期成交。
+
+### 2. 电商产品岗
+岗位核心：货架电商产品设计，平衡C端购物体验、B端商家工具效率、平台商业化目标。
+高频真题：
+- 淘宝搜索推荐如何优化？
+- 如何设计工具帮助中小商家提升经营效率？
+- 对比拼多多，淘宝产品侧的差异化机会在哪？
+高分思路：回答产品题固定框架：背景痛点→目标用户→核心方案→风险与副作用→数据验收指标。必须同时思考对买家、商家、平台三方带来的影响。
+
+### 3. 后端开发岗
+岗位核心：扎实计算机基础，重点考察电商场景下的系统设计，大促高并发、库存、订单链路是重中之重。
+高频考点：
+- 大促秒杀场景如何做流量削峰、防止超卖？
+- 分布式事务在订单支付场景如何落地？
+- 商品、订单、库存微服务拆分思路。
+算法题难度中等，不会过度刁难，但要求代码规范、边界条件考虑完整，同时要求理解技术方案对应的业务价值。
+
+### 4. 数据分析岗
+岗位核心：不是单纯写SQL取数，核心是**用数据定位业务问题，给出可落地的业务建议**。
+高频真题：
+- 淘宝大盘GMV突然下跌，如何逐层拆解归因？
+- 如何搭建商家健康度指标体系？
+- 如何评估一场大促活动效果？
+高分思路：先拆分指标维度，区分是流量、转化还是客单价问题；区分是大盘共性问题还是特定人群/品类问题；最后给出可落地的业务动作，而不是只输出数据结论。
+
+## 四、淘天面试高频扣分陷阱，大量候选人踩坑
+1. **项目没有量化数据，描述空洞**
+只写“优化活动，提升转化”，没有具体提升百分比、绝对值。淘天面试官对没有数字支撑的经历非常敏感，直接降低可信度。
+
+2. **单向思维，只站用户或者只站商家角度思考**
+比如一味说要降低商品价格提升用户体验，忽略商家亏损、退出平台的风险；或者只考虑商家收益，无视用户体验受损。缺少平台全局视角，是非常典型的失分点。
+
+3. **只有执行，缺少复盘**
+很多候选人只能描述自己做了哪些工作，无法回答项目遇到的瓶颈、方案缺点、后续迭代思路。淘天非常看重复盘能力，只会执行的人竞争力有限。
+
+4. **对淘天业务认知陈旧**
+只知道传统淘宝货架电商，不了解淘天当前内容化、逛逛、直播、中小商家扶持、性价比赛道等战略，对竞品认知片面，会被判定行业积累不足。
+
+5. **价值观案例生硬编造**
+临时背的价值观故事很容易被追问细节时露馅。面试官喜欢深挖案例细节，虚假故事很难自圆其说。
+
+## 五、淘天淘宝面试备考策略
+1. **重构简历，项目电商化+数据化**
+把每一段实习/项目按照「业务背景→你的动作→量化结果→遇到的问题→复盘迭代」重新梳理。每段经历准备好对应的指标口径，面试官追问数据来源时可以从容应答。
+
+2. **深度体验淘天产品，建立电商认知**
+持续观察淘宝搜索、直播、逛逛、商家后台，思考平台策略。主动对比拼多多、京东的差异化，整理自己的独立思考，用于总监面开放性问题。
+
+3. **针对性刷题，聚焦电商场景**
+技术岗重点练习高并发、库存订单系统设计；非技术岗多练习业务归因、活动方案设计，养成多维度拆解业务问题的习惯。
+
+4. **提前准备阿里价值观真实案例**
+围绕客户第一、拥抱变化、责任心等，准备真实发生的小故事，不要套用万能模板，面试中自然结合案例讲述。
+
+5. **模拟连环追问训练**
+淘天面试喜欢层层深挖，自己提前预设面试官可能提出的追问，打磨项目细节，避免面试中出现模糊、不确定的表述。
+
+## 六、总结：淘天淘宝真正想要什么样的候选人
+淘天淘宝面试，不追求履历最光鲜的候选人，核心挑选**懂电商闭环、会用数据做决策、具备商家用户双端全局思维、能落地、善复盘**的人。
+很多人误以为淘宝面试靠背模板，实际面试中，面试官很容易识别套路化回答。想要上岸，核心不是背诵标准答案，而是建立电商业务思维，用真实项目、量化数据、完整复盘证明你可以解决平台真实的业务问题。
+
+
+
+
+https://www.nowcoder.com/discuss/935389165653360640
+https://www.nowcoder.com/discuss/935389258741796864
+https://www.nowcoder.com/discuss/935389359807746048
+https://www.nowcoder.com/discuss/935389458789072896
+https://www.nowcoder.com/discuss/935389563957047296
+https://www.nowcoder.com/discuss/935389658337280000
+https://www.nowcoder.com/discuss/935389759512276992
+https://www.nowcoder.com/discuss/935389862524440576
+https://www.nowcoder.com/discuss/935389963678470144
+https://www.nowcoder.com/discuss/935390063511207936
+https://www.nowcoder.com/discuss/935390163503415296
+https://www.nowcoder.com/discuss/935390358324674560
+https://www.nowcoder.com/discuss/935390460980232192
+https://www.nowcoder.com/discuss/935390559022174208
+https://www.nowcoder.com/discuss/935390650919317504
+https://www.nowcoder.com/discuss/935390751490338816
+https://www.nowcoder.com/discuss/935390850580774912
+https://www.nowcoder.com/discuss/935390949558013952
+https://www.nowcoder.com/discuss/935391898078834688
+https://www.nowcoder.com/discuss/935391991582511104
+https://www.nowcoder.com/discuss/935392092434497536
+https://www.nowcoder.com/discuss/935392195253661696
+https://www.nowcoder.com/discuss/935392288484655104
+https://www.nowcoder.com/discuss/935392390653706240
+https://www.nowcoder.com/discuss/935392492210356224
+https://www.nowcoder.com/discuss/935392595943915520
+https://www.nowcoder.com/discuss/935392699312590848
+https://www.nowcoder.com/discuss/935392791792742400
+https://www.nowcoder.com/discuss/935392885485076480
+https://www.nowcoder.com/discuss/935392976207904768
+https://www.nowcoder.com/discuss/935393081732366336
+https://www.nowcoder.com/discuss/935393173851865088
+https://www.nowcoder.com/discuss/935393372422832128
+https://www.nowcoder.com/discuss/935393472813498368
+https://www.nowcoder.com/discuss/935393571136425984
+https://www.nowcoder.com/discuss/935393673615802368
+https://www.nowcoder.com/discuss/935394189947207680
+https://www.nowcoder.com/discuss/935394290149130240
+https://www.nowcoder.com/discuss/935394391420600320
+https://www.nowcoder.com/discuss/935394492914335744
+https://www.nowcoder.com/discuss/935394594521350144
+https://www.nowcoder.com/discuss/935394695218286592
+https://www.nowcoder.com/discuss/935394795684450304
+https://www.nowcoder.com/discuss/935394897027170304
+https://www.nowcoder.com/discuss/935395000081215488
+https://www.nowcoder.com/discuss/935395100291530752
+https://www.nowcoder.com/discuss/935395201781157888
+https://www.nowcoder.com/discuss/935395295246974976
+https://www.nowcoder.com/discuss/935395398523318272
+https://www.nowcoder.com/discuss/935395499027230720
+https://www.nowcoder.com/discuss/935395599430483968
+https://www.nowcoder.com/discuss/935395699682705408
+https://www.nowcoder.com/discuss/935395799570083840
+https://www.nowcoder.com/discuss/935395901089017856
+https://www.nowcoder.com/discuss/935395999437115392
+https://www.nowcoder.com/discuss/935719653446283264
+https://www.nowcoder.com/discuss/935719775966154752
+https://www.nowcoder.com/discuss/935719906358624256
+https://www.nowcoder.com/discuss/935720034268086272
+https://www.nowcoder.com/discuss/935720163901526016
+https://www.nowcoder.com/discuss/935720292888903680
+https://www.nowcoder.com/discuss/935720414506995712
+https://www.nowcoder.com/discuss/935720539455225856
+https://www.nowcoder.com/discuss/935720669403185152
+https://www.nowcoder.com/discuss/935720793231675392
+https://www.nowcoder.com/discuss/935720916334497792
+https://www.nowcoder.com/discuss/935721037390446592
+https://www.nowcoder.com/discuss/935721167292231680
+https://www.nowcoder.com/discuss/935721287664533504
+https://www.nowcoder.com/discuss/935721413384687616
+https://www.nowcoder.com/discuss/935721898795630592
+https://www.nowcoder.com/discuss/935722016445825024
+https://www.nowcoder.com/discuss/935722145240346624
+https://www.nowcoder.com/discuss/935722274244554752
+https://www.nowcoder.com/discuss/935722400266616832
+https://www.nowcoder.com/discuss/935722527349829632
+https://www.nowcoder.com/discuss/935722655909498880
+https://www.nowcoder.com/discuss/935722784842350592
+https://www.nowcoder.com/discuss/935722913838137344
+https://www.nowcoder.com/discuss/935723043479965696
+https://www.nowcoder.com/discuss/935723174275084288
+https://www.nowcoder.com/discuss/935723297885474816
+https://www.nowcoder.com/discuss/935723426117844992
+https://www.nowcoder.com/discuss/935723545659736064
+https://www.nowcoder.com/discuss/935723669291094016
+https://www.nowcoder.com/discuss/935724087588974592
+https://www.nowcoder.com/discuss/935724217318797312
+https://www.nowcoder.com/discuss/935724347379970048
+https://www.nowcoder.com/discuss/935724476006662144
+https://www.nowcoder.com/discuss/935724604826406912
+https://www.nowcoder.com/discuss/935724735076270080
+https://www.nowcoder.com/discuss/935724864806092800
+https://www.nowcoder.com/discuss/935724990714871808
+https://www.nowcoder.com/discuss/935725118175608832
+https://www.nowcoder.com/discuss/935725244600315904
+https://www.nowcoder.com/discuss/935725367011082240
+https://www.nowcoder.com/discuss/935725495319031808
+https://www.nowcoder.com/discuss/935725621815017472
+https://www.nowcoder.com/discuss/935725752840880128
+https://www.nowcoder.com/discuss/935725881283051520
+https://www.nowcoder.com/discuss/935727424371716096
+https://www.nowcoder.com/discuss/935727552683835392
+https://www.nowcoder.com/discuss/935727552683835392
+https://www.nowcoder.com/discuss/935729954921148416
+https://www.nowcoder.com/discuss/935730080959987712
+https://www.nowcoder.com/discuss/935730196232044544
+https://www.nowcoder.com/discuss/935730313332785152
+https://www.nowcoder.com/discuss/935730439950467072
+https://www.nowcoder.com/discuss/935730563095232512
+https://www.nowcoder.com/discuss/935730682733555712
+https://www.nowcoder.com/discuss/935730801356865536
+https://www.nowcoder.com/discuss/935730930109415424
+https://www.nowcoder.com/discuss/935731054495690752
+https://www.nowcoder.com/discuss/935731180308090880
+https://www.nowcoder.com/discuss/935731306413948928
+https://www.nowcoder.com/discuss/935731431274213376
+https://www.nowcoder.com/discuss/935731556621045760
+https://www.nowcoder.com/discuss/935731685042159616
+https://vr.justeasy.cn/view/17y9mn0978752gz5-1790787584.html
+https://vr.justeasy.cn/view/1q790a787mi9n1t3-1790787959.html
+https://vr.justeasy.cn/view/18w7yfx9078799e6-1790788011.html
+https://vr.justeasy.cn/view/17q947078j8q8036-1790788051.html
+https://vr.justeasy.cn/view/y1y79e07z8891o32-1790788151.html
+https://vr.justeasy.cn/view/r1elb79ua0788187-1790788206.html
+https://vr.justeasy.cn/view/ft17890788234hx3-1790788262.html
+https://vr.justeasy.cn/view/1p7b9o0788bk2v98-1790788317.html
+https://vr.justeasy.cn/view/odc179tj07b88355-1790788373.html
+https://vr.justeasy.cn/view/m1u79e07o8f84192-1790788430.html
+https://vr.justeasy.cn/view/1l7910788h94r266-1790788485.html
+https://vr.justeasy.cn/view/018790d7858q52e1-1790788540.html
+https://vr.justeasy.cn/view/5u17l9l087885978-1790788597.html
+https://vr.justeasy.cn/view/1bnna79907z88634-1790788652.html
+https://vr.justeasy.cn/view/i15c7m90788f6k90-1790788709.html
+https://vr.justeasy.cn/view/1769w07r88d47846-1790788764.html
+https://vr.justeasy.cn/view/1790cba78g8i8081-1790788820.html
+https://vr.justeasy.cn/view/179y08788v8jb658-1790788876.html
+https://vr.justeasy.cn/view/1r7u90g7088g9p15-1790788934.html
+https://vr.justeasy.cn/view/r1y79i2078p897p0-1790788988.html
+https://vr.justeasy.cn/view/qum17e91j0789026-1790789044.html
+https://vr.justeasy.cn/view/1z1a7907869x08e2-1790789101.html
+https://vr.justeasy.cn/view/1s790789r91cm4c0-1790789159.html
+https://vr.justeasy.cn/view/17907t8912vkdd96-1790789215.html
+https://vr.justeasy.cn/view/h17cjs9078b92592-1790789271.html
+https://vr.justeasy.cn/view/o177690786973209-1790789327.html
+https://vr.justeasy.cn/view/07147907893jyp66-1790789385.html
+https://vr.justeasy.cn/view/1fqd79078y94z623-1790789442.html
+https://vr.justeasy.cn/view/1798q078x3c9t479-1790789499.html
+https://vr.justeasy.cn/view/j107m9w0789u5336-1790789556.html
+https://vr.justeasy.cn/view/m1dn790789a50924-1790789612.html
+https://vr.justeasy.cn/view/17t790n7893c65x1-1790789669.html
+https://vr.justeasy.cn/view/17o960fy789gv707-1790789726.html
+https://vr.justeasy.cn/view/01t7v920787976g4-1790789783.html
+https://vr.justeasy.cn/view/3179078oq9bd8271-1790789839.html
+https://vr.justeasy.cn/view/179073l7853n9878-1790789897.html
+https://vr.justeasy.cn/view/1790178955744935-1790789953.html
+https://vr.justeasy.cn/view/17999w6078o999i1-1790790010.html
+https://vr.justeasy.cn/view/17o9n0r7h900z4t7-1790790066.html
+https://vr.justeasy.cn/view/1a7b09z079010hg4-1790790123.html
+https://vr.justeasy.cn/view/1g79b0h790i01o61-1790790180.html
+https://vr.justeasy.cn/view/1o79079r0luc2v18-1790790237.html
+https://vr.justeasy.cn/view/k17r90u79d0oh274-1790790293.html
+https://vr.justeasy.cn/view/0gq17907c9s033k1-1790790350.html
+https://vr.justeasy.cn/view/17n9047h903n18n7-1790790406.html
+https://vr.justeasy.cn/view/s17i195s079044i3-1790790464.html
+https://vr.justeasy.cn/view/17w907lt905502l0-1790790519.html
+https://vr.justeasy.cn/view/1749k0g790i5p357-1790790576.html
+https://vr.justeasy.cn/view/178i9y07990p61a3-1790790633.html
+https://vr.justeasy.cn/view/179m0m7a9m0r6w70-1790790689.html
+https://vr.justeasy.cn/view/ei1w72907t907216-1790790745.html
+https://vr.justeasy.cn/view/177p59l079037a85-1790790804.html
+https://vr.justeasy.cn/view/lh17e9ry0790z843-1790790861.html
+https://vr.justeasy.cn/view/j17rm1ru90790899-1790790918.html
+https://vr.justeasy.cn/view/u91q79079hj09506-1790790974.html
+https://vr.justeasy.cn/view/179h07t94sm10c13-1790791031.html
+https://vr.justeasy.cn/view/6d1me79407m91069-1790791087.html
+https://vr.justeasy.cn/view/9179h079v1162ix6-1790791144.html
+https://vr.justeasy.cn/view/e179079191e8gq72-1790791201.html
+https://vr.justeasy.cn/view/17p908gb7js91239-1790791258.html
+https://vr.justeasy.cn/view/179079ly1thj29o7-1790791315.html
+https://vr.justeasy.cn/view/17l9079i13k5lao4-1790791373.html
+https://vr.justeasy.cn/view/17s90v7w09c14u12-1790791430.html
+https://vr.justeasy.cn/view/i61d7t49r0791469-1790791489.html
+https://vr.justeasy.cn/view/e179037910561l26-1790791545.html
+https://vr.justeasy.cn/view/1179z0759x158a22-1790791602.html
+https://vr.justeasy.cn/view/j179t1d07916kk39-1790791658.html
+https://vr.justeasy.cn/view/17904x7t91bk6395-1790791715.html
+https://vr.justeasy.cn/view/ek179qh007891753-1790791771.html
+https://vr.justeasy.cn/view/2179zy606k794199-1790794214.html
+https://vr.justeasy.cn/view/1m79079jh42724g6-1790794263.html
+https://vr.justeasy.cn/view/17907094i2e2ul96-1790794312.html
+https://vr.justeasy.cn/view/1o79k0794834bn45-1790794362.html
+https://vr.justeasy.cn/view/11q7i9h0s7l94395-1790794411.html
+https://vr.justeasy.cn/view/f17v9mu607944i45-1790794464.html
+https://vr.justeasy.cn/view/1edm790uu79450k0-1790794519.html
+https://vr.justeasy.cn/view/i179079ss45n8y55-1790794574.html
+https://vr.justeasy.cn/view/c1790uj7946bl1j0-1790794629.html
+https://vr.justeasy.cn/view/o1798q079a4646d5-1790794684.html
+https://vr.justeasy.cn/view/17e90779q9g472g0-1790794739.html
+https://vr.justeasy.cn/view/m1c79007vb9477w6-1790794794.html
+https://vr.justeasy.cn/view/177r919097n94831-1790794849.html
+https://vr.justeasy.cn/view/1p790m7ugd948x86-1790794905.html
+https://vr.justeasy.cn/view/1790s7io94w39841-1790794960.html
+https://vr.justeasy.cn/view/1fa79d0794l999i7-1790795016.html
+https://vr.justeasy.cn/view/17r490079x5r0r52-1790795071.html
+https://vr.justeasy.cn/view/k1790w67v94i5107-1790795126.html
+https://vr.justeasy.cn/view/179017t7zh9q5163-1790795181.html
+https://vr.justeasy.cn/view/1u79047952sf1y28-1790795236.html
+https://vr.justeasy.cn/view/179t0ap795r2be73-1790795292.html
+https://vr.justeasy.cn/view/n1p27390e7953428-1790795346.html
+https://vr.justeasy.cn/view/1d79079565n3lw84-1790795403.html
+https://vr.justeasy.cn/view/c16279077g9p5440-1790795459.html
+https://vr.justeasy.cn/view/1m790x719r1e5497-1790795517.html
+https://vr.justeasy.cn/view/1790h79e19k55554-1790795573.html
+https://vr.justeasy.cn/view/17c89d07495z61y2-1790795631.html
+https://vr.justeasy.cn/view/7179u0k7e2956068-1790795687.html
+https://vr.justeasy.cn/view/179w0795sp7qa235-1790795746.html
+https://vr.justeasy.cn/view/u17907957v8en8c3-1790795802.html
+https://vr.justeasy.cn/view/17p90795o8d4zok1-1790795860.html
+https://vr.justeasy.cn/view/s1n79h071n965900-1790795919.html
+https://vr.justeasy.cn/view/179ie079859hwf57-1790795977.html
+https://vr.justeasy.cn/view/1m7u9079yg601884-1790796035.html
+https://vr.justeasy.cn/view/51u796r079ty6075-1790796094.html
+https://vr.justeasy.cn/view/2g179079p61fon34-1790796152.html
+https://vr.justeasy.cn/view/6avt17z907s96190-1790796209.html
+https://vr.justeasy.cn/view/sh017950s7962407-1790796266.html
+https://vr.justeasy.cn/view/p179b07x963w0dp6-1790796324.html
+https://vr.justeasy.cn/view/17907atki9w63662-1790796382.html
+https://vr.justeasy.cn/view/173907x9i6y4h2z1-1790796440.html
+https://vr.justeasy.cn/view/1il379e079c647m8-1790796498.html
+https://vr.justeasy.cn/view/51hy7907965543q6-1790796555.html
+https://vr.justeasy.cn/view/17f90dn7926a5o94-1790796614.html
+https://vr.justeasy.cn/view/h3179m07v9i66582-1790796672.html
+https://vr.justeasy.cn/view/10w7foa907967f10-1790796730.html
+https://vr.justeasy.cn/view/17907lt956f36768-1790796787.html
+https://vr.justeasy.cn/view/1z7907x9vi9f6826-1790796844.html
+https://vr.justeasy.cn/view/17907w9o68p8fx83-1790796902.html
+https://vr.justeasy.cn/view/i13079079x6gv942-1790796960.html
+https://vr.justeasy.cn/view/1790x796mu9p9e89-1790797020.html
+https://vr.justeasy.cn/view/1ueg79z0a7970o58-1790797076.html
+https://vr.justeasy.cn/view/t187uw907x97r116-1790797134.html
+https://vr.justeasy.cn/view/m1790797av31mb74-1790797195.html
+https://vr.justeasy.cn/view/01k7907a9p7t23h2-1790797250.html
+https://vr.justeasy.cn/view/4179079nkh72p8u9-1790797311.html
+https://vr.justeasy.cn/view/179507977pcj2347-1790797367.html
+https://vr.justeasy.cn/view/1790rt79ugfl7406-1790797425.html
+https://vr.justeasy.cn/view/12ey79f0q79746b4-1790797483.html
+https://vr.justeasy.cn/view/1790bo797ps52jp1-1790797541.html
+https://vr.justeasy.cn/view/u17tb9bv079757o8-1790797599.html
+https://vr.justeasy.cn/view/01sh7gmn90797637-1790797657.html
+https://vr.justeasy.cn/view/17h690w7o99769r5-1790797714.html
+https://vr.justeasy.cn/view/17t90h793727ak52-1790797771.html
+https://vr.justeasy.cn/view/1e7h907j9m7981u0-1790797829.html
+https://vr.justeasy.cn/view/1t79079n78e46ub7-1790797886.html
+https://vr.justeasy.cn/view/1mi79k07977922k7-1790797947.html
+https://vr.justeasy.cn/view/i1f790797z293l83-1790798004.html
+https://vr.justeasy.cn/view/1d790kg79s8h0042-1790798061.html
+https://vr.justeasy.cn/view/tj5179z507981010-1790798119.html
+https://pastebin.com/zw1B6cyG
+https://pastebin.com/Q7gZKt3y
+https://pastebin.com/dT12T6fC
+https://pastebin.com/XtXsxTAd
+https://pastebin.com/KXha0ZTb
+https://pastebin.com/mcUYm3JN
+https://pastebin.com/5zwFA4ir
+https://pastebin.com/yRwNV6qL
+https://pastebin.com/bXXRWuJ3
+https://pastebin.com/gTkrSRir
+https://pastebin.com/jaiRgBga
+https://pastebin.com/fyyk0Hs3
+https://pastebin.com/1hDuCW3P
+https://pastebin.com/gXM5ZkJK
+https://pastebin.com/7QN47JDq
+https://pastebin.com/QVbfzA8u
+https://pastebin.com/yg8L76CS
+https://pastebin.com/Hw4Jj824
+https://pastebin.com/i4FtdfZ5
+https://pastebin.com/cW9zBafg
